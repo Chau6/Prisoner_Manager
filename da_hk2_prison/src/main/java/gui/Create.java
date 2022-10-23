@@ -306,6 +306,8 @@ public class Create extends JFrame {
 		create.setBackground(new Color(128, 0, 128));
 		createbody.setVisible(false);
 		homebody.setVisible(false);
+		
+		JOptionPane.showMessageDialog(null, "hello world"); //có sự thay đổi về code so với ban đầu
 	}
 
 	protected void listMouseClicked(MouseEvent e) {
