@@ -307,7 +307,7 @@ public class Create extends JFrame {
 		createbody.setVisible(false);
 		homebody.setVisible(false);
 		
-		JOptionPane.showMessageDialog(null, "hello world"); //có sự thay đổi về code so với ban đầu
+		JOptionPane.showMessageDialog(null, "hello Tan Chau"); //có sự thay đổi về code so với ban đầu
 	}
 
 	protected void listMouseClicked(MouseEvent e) {
