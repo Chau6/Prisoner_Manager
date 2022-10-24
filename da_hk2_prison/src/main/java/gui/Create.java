@@ -27,6 +27,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JComboBox;
 import javax.swing.DefaultComboBoxModel;
+import javax.swing.ImageIcon;
 
 public class Create extends JFrame {
 
@@ -156,7 +157,7 @@ public class Create extends JFrame {
 
 		homebody = new JPanel();
 		homebody.setBackground(new Color(240, 240, 240));
-		homebody.setBounds(253, 10, 803, 568);
+		homebody.setBounds(253, 0, 803, 578);
 		contentPane.add(homebody);
 		homebody.setLayout(null);
 
@@ -198,6 +199,7 @@ public class Create extends JFrame {
 		home.setLayout(null);
 
 		lblNewLabel = new JLabel("HOME");
+		lblNewLabel.setIcon(new ImageIcon("D:\\Chau_folder\\GitHub\\Prisoner_Manager\\da_hk2_prison\\icon\\216242_home_icon.png"));
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel.setForeground(new Color(255, 255, 255));
 		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 14));
@@ -217,6 +219,7 @@ public class Create extends JFrame {
 		list.setLayout(null);
 
 		lblList = new JLabel("LIST");
+		lblList.setIcon(new ImageIcon("D:\\Chau_folder\\GitHub\\Prisoner_Manager\\da_hk2_prison\\icon\\3844472_hamburger_list_menu_more_navigation_icon.png"));
 		lblList.setHorizontalAlignment(SwingConstants.CENTER);
 		lblList.setForeground(Color.WHITE);
 		lblList.setFont(new Font("Tahoma", Font.PLAIN, 14));
@@ -236,6 +239,7 @@ public class Create extends JFrame {
 		create.setLayout(null);
 
 		lblCreate = new JLabel("CREATE");
+		lblCreate.setIcon(new ImageIcon("D:\\Chau_folder\\GitHub\\Prisoner_Manager\\da_hk2_prison\\icon\\4781840_+_add_circle_create_expand_icon.png"));
 		lblCreate.setBounds(80, 10, 75, 29);
 		create.add(lblCreate);
 		lblCreate.setHorizontalAlignment(SwingConstants.CENTER);
